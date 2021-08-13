@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: lktbz-netty-demo-23
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix:  .jsp
+netty:
+  host: 127.0.0.1
+  port: 7397
